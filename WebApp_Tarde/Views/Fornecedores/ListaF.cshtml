@@ -1,0 +1,107 @@
+﻿<div class="card">
+    <div class="card-header">
+        <h2>Lista de Fornecedores</h2>
+    </div>
+    <div class="card-body">
+
+
+        <div class="row">
+            <div class="col-2">
+                <a href="/Fornecedores/CadastroFornecedores" class="btn btn-success">
+                    Novo fornecedor
+                </a>
+            </div>
+
+            <div class="col-3">
+                <select name="filtro" class="form-control">
+                    <option value="0">Todos os campos</option>
+                    <option value="id">Por Telefone</option>
+                    <option value="nome">Por nome</option>
+                    <option value="telefone">Por quantidade</option>
+                </select>
+            </div>
+            <div class="col-5">
+                <input type="text" name="busca" class="form-control"></input>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary" type="submit">Pesquisar</button>
+            </div>
+        </div>
+
+
+        <table class="table table-striped">
+
+
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>item fornecido</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Coca-cola</td>
+                    <td>16997133245</td>
+                    <td>Refrigerante 2l</td>
+                    <td>70</td>
+
+                    <td>
+                        <a href="produtos/editar/1" class="btn btn-warning">
+                            Editar produto 1
+                        </a>
+
+                        <a href="produtos/excluir/1" class="btn btn-danger">
+                            Excluir produto 1
+                        </a>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Coca-cola</td>
+                    <td>16997136548</td>
+                    <td>Refrigerante Lata</td>
+                    <td>70</td>
+
+                    <td>
+                        <a href="produtos/editar/1" class="btn btn-warning">
+                            Editar produto 1
+                        </a>
+
+                        <a href="produtos/excluir/1" class="btn btn-danger">
+                            Excluir produto 1
+                        </a>
+
+                    </td>
+                </tr>
+                </tr>
+
+                <tr>
+                    <td>SuperMercado</td>
+                    <td>16997139874</td>
+                    <td>Carne</td>
+                    <td>10</td>
+
+                    <td>
+                        <a href="produtos/editar/1" class="btn btn-warning">
+                            Editar produto 1
+                        </a>
+
+                        <a href="produtos/excluir/1" class="btn btn-danger">
+                            Excluir produto 1
+                        </a>
+
+                    </td>
+                </tr>
+
+            </tbody>
+
+
+
+        </table>
+
+
+    </div>
+</div>
